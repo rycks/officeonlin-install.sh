@@ -39,5 +39,5 @@ fi
 
 sed  '16a\
 #include <list>
-' < /opt/online/wsd/AdminModel.hpp > /opt/online/wsd/AdminModeltmp.hpp 
-cat /opt/online/wsd/AdminModeltmp.hpp > /opt/online/wsd/AdminModel.hpp
+' < ${lool_dir}/wsd/AdminModel.hpp > ${lool_dir}/wsd/AdminModeltmp.hpp 
+cat ${lool_dir}/wsd/AdminModeltmp.hpp > ${lool_dir}/wsd/AdminModel.hpp
